@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: #76b5bc;
+  --dark-brown: #382314;
+  --medium-brown: #93867b;
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: #fffaf5;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--cream);
+  display: grid;
+  place-items: center;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--dark-brown);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+p {
+  color: var(--medium-brown);
+}
+
+main {
+  /* width: 80vh; */
+  width: 480px;
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+
+.intro {
+  background: var(--soft-red);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1.4rem;
+  border-radius: 1rem;
+}
+
+.intro p {
+  color: white;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.container {
+  /* height: 50vh; */
+  height: 307px;
+  background: var(--very-pale-orange);
+  padding: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+.rundown {
+  background: var(--very-pale-orange);
+  padding: 2rem;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note h3 {
+  text-align: right;
+}
+
+footer {
+  margin: 1rem auto;
+}
+.attribution {
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--soft-red);
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 400px;
+  }
+
+  .container {
+    height: 270px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--dark-brown);
+    margin-block: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  main {
+    width: 350px;
+  }
+
+  .container {
+    height: 250px;
+  }
+
+  .rundown {
+    text-align: center;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .note h3 {
+    text-align: center;
+  }
+
+  /* hr{
+    display: none;
+  } */
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--dark-brown);
+    margin-block: 0.5rem;
+  }
+}
