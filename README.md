@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/Tasnim005/Expenses-chart-component)
+- Live Site URL: [Live site](https://tasnim005.github.io/Expenses-chart-component/)
 
 ## My process
 
